@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación Ambiental - Paleoclimatología</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            background: #65c9c9;
+            line-height: 1.6;
+            color: #2c3e50;
+        }
+
+        .sidebar {
+            height: 100vh;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #2c3e50;
+            padding-top: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #ecf0f1;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .sidebar a:hover {
+            background-color: #34495e;
+        }
+
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+            text-align: left;
+            max-width: 900px; /* Ancho máximo para el contenido */
+        }
+
+        h1 {
+            color: #1a5276;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #21618c;
+            margin-top: 30px;
+            border-bottom: 2px solid #1a5276;
+            padding-bottom: 5px;
+        }
+
+        p, ul {
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+
+        ul {
+            padding-left: 40px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #1a5276;
+        }
+
+        /* ESTILOS PARA CENTRAR IMÁGENES Y VIDEO */
+
+        /* 1. Estilo para el contenedor de imágenes (ya estaba correcto para centrar el contenido) */
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* 2. Estilo para el contenedor del video (Clave para centrar el video) */
+        .video-container {
+            width: 800px; /* Debe coincidir con el ancho de la etiqueta <video> */
+            margin: 20px auto; /* Centra el contenedor horizontalmente */
+            box-shadow: 0 0 10px rgba(44, 62, 80, 0.3);
+            border-radius: 8px;
+            overflow: hidden; /* Para que el borde sea limpio */
+        }
+
+        /* 3. Estilo para la etiqueta <video> */
+        .video-container video {
+            display: block; /* Importante para evitar problemas de centrado */
+            width: 100%; /* El video ocupa todo el ancho de su nuevo contenedor */
+            height: auto;
+        }
+
+        /* 4. Estilo de las imágenes (Ya estaba bien, pero lo refinamos) */
+        img {
+            width: 100%;
+            max-width: 450px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(44, 62, 80, 0.3);
+            border: 2px solid #2c3e50;
+            display: block; /* Para que margin: auto funcione si se quisiera centrar directamente */
+            margin: 15px auto; /* Centra las imágenes dentro del .image-container */
+        }
+
+        .image-caption {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #34495e;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <a href="index.html">Pag. Principal</a>
+        <a href="ciencias.html">Zona de Ciencias</a>
+        <a href="eduambiental.html">Zona de Edu. Ambiental</a>
+        <a href="matematicas.html">Zona de Matemáticas</a>
+        <a href="informatica.html">Zona de Informática</a>
+        <a href="ingles.html">Zona de Inglés</a>
+        <a href="edufisica.html">Zona de Edu. Física</a>
+        <a href="español.html">Zona de Lengua Castellana</a>
+    </div>
+
+    <div class="content">
+        <h1>Educación Ambiental: Paleoclimatología</h1>
+        <p>Durante las clases de la asignatura de educación ambiental, hemos realizado análisis de laboratorio y análisis de diferentes muestras que pueden ayudar a descifrar el pasado. Se nos ha pedido analizar 3 tipos de muestras que son fundamentales para el estudio de la paleoclimatología:</p>
+
+        <h2>Muestras de hielo</h2>
+        <p>Hemos analizado muestras de hielo provenientes de la estación Vostok, en la Antártida. Hemos analizado la muestra de tal manera que vimos algunas variaciones entre las capas del hielo, observamos diferentes tonalidades de color y descubrimos un poco de suciedad en aquella muestra.</p>
+        <p>Las muestras de hielo son como <strong>archivos naturales</strong> que nos permiten estudiar la composición de la atmósfera en el pasado. Cada capa de hielo corresponde a un año diferente, y las burbujas de aire atrapadas en ellas contienen información valiosa sobre los niveles de gases de efecto invernadero a lo largo del tiempo.</p>
+        
+        <div class="image-container">
+            <img src="hielo2.png" alt="Muestras de hielo para estudios paleoclimáticos" />
+            <div class="image-caption">Muestras de hielo de la Antártida contienen información climática de miles de años</div>
+        </div>
+
+        <h2>Muestras de polen</h2>
+        <p>Hemos analizado muestras de polen proveniente de diferentes flores que se nos pidieron. Observamos que, dependiendo de la flor, el polen tiene diferente composición y prioridades.</p>
+        <p>El estudio del polen fósil, conocido como <strong>palinología</strong>, nos permite reconstruir la vegetación del pasado y, por tanto, las condiciones climáticas. Cada especie vegetal produce un tipo de polen característico, lo que nos ayuda a identificar qué plantas existían en diferentes períodos históricos y cómo respondían a los cambios climáticos.</p>
+        
+        <div class="image-container">
+            <img src="polen.png" alt="Muestras de polen para estudios paleoclimáticos" />
+            <div class="image-caption">El polen fósil revela información sobre la vegetación y clima del pasado</div>
+        </div>
+
+        <h2>Anillos de Árbol</h2>
+        <p>Aunque no hemos tenido una muestra de un anillo de árbol, hemos analizado mediante imágenes las capas, grietas y color de un anillo de árbol.</p>
+        <p>La dendrocronología, o estudio de los anillos de los árboles, proporciona información valiosa sobre las condiciones climáticas del pasado. Los anillos más anchos indican años de crecimiento favorable (generalmente con temperaturas adecuadas y suficiente humedad), mientras que los anillos más estrechos sugieren condiciones adversas como sequías o temperaturas extremas.</p>
+        <p>Además, los patrones de crecimiento pueden revelar eventos climáticos extremos como incendios forestales, inundaciones o períodos prolongados de sequía que afectaron el desarrollo del árbol a lo largo de su vida.</p>
+        
+        <div class="image-container">
+            <img src="arbol.png" alt="Anillos de árbol para estudios paleoclimáticos" />
+            <div class="image-caption">Los anillos de los árboles son testigos del clima del pasado</div>
+        </div>
+
+        <h2>Importancia de la Paleoclimatología</h2>
+        <p>El estudio del clima del pasado nos ayuda a comprender mejor los cambios climáticos actuales y futuros. A través de estas muestras naturales, podemos:</p>
+        <ul>
+            <li>Entender los patrones climáticos naturales de la Tierra</li>
+            <li>Identificar la influencia humana en el cambio climático actual</li>
+            <li>Predecir posibles escenarios climáticos futuros</li>
+            <li>Desarrollar estrategias de adaptación y mitigación</li>
+        </ul>
+        <p>Estos archivos naturales nos muestran que el clima de la Tierra ha cambiado constantemente a lo largo de su historia, pero el cambio actual es particularmente rápido y está claramente influenciado por las actividades humanas.</p>
+        
+        <p>En ed ambiental se nos pidio hacer noticiero sobre el siguiente texto q trata de la paleoclimatologia.</p>
+        <iframe src="archivo de paleoclimatologia.pdf" width="100%" height="600">
+            <a href="archivo de paleoclimatologia.pdf">Descargar archivo de paleoclimatologia.pdf</a>
+        </iframe>
+        
+        <p>Este fue el noticiero que hicimos sobre el texto anterior</p>
+
+        <a href="https://youtu.be/0b4bulrSCcQ">Noticiero</a>
+        
+    </div>
+</body>
+
+</html>
